@@ -30,10 +30,11 @@ Projede kullanılan Telco Customer Churn veri seti üzerinde aşağıdaki Featur
 
 Veri setindeki sınıf dengesizliği (imbalance) SMOTE tekniği ile giderilmiştir. Üç farklı model karşılaştırılmıştır:
 
-Model,Accuracy,Precision,Recall,F1-Score,AUC-ROC
-Random Forest,0.780,0.579,0.631,0.604,0.732
-LightGBM,0.772,0.564,0.633,0.596,0.728
-Logistic Regression,0.751,0.527,0.649,0.582,0.719
+| Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Random Forest** | 0.780 | 0.579 | 0.631 | **0.604** | **0.732** |
+| LightGBM | 0.772 | 0.564 | 0.633 | 0.596 | 0.728 |
+| Logistic Regression | 0.751 | 0.527 | **0.649** | 0.582 | 0.719 |
 
 ## Sonuç
 
